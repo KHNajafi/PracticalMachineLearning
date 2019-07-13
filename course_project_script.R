@@ -10,7 +10,7 @@
 
 ###### FUNCTIONS & WORKSPACE ######
 # REQUIRED LIBRARIES
-libraries <- c("data.table", "tidyverse", "lubridate", "caret", "corrplot")
+libraries <- c("data.table", "tidyverse", "lubridate", "caret", "randomForest", "corrplot")
 lapply(libraries, require, character.only = T)
 rm(libraries)
 
